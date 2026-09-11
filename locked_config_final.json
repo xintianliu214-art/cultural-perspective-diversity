@@ -1,0 +1,18 @@
+{
+  "version": "FINAL_GPT4OMINI",
+  "model": "gpt-4o-mini",
+  "max_tokens": 450,
+  "temperature": 0.7,
+  "api_style": "chat.completions (non-reasoning model)",
+  "n_questions": 40,
+  "conditions": [
+    "baseline",
+    "cultural",
+    "pluralistic"
+  ],
+  "prompt_templates": {
+    "baseline": "Answer the following question concisely.\n\nIMPORTANT LENGTH REQUIREMENT:\nWrite approximately 170-180 words.\nKeep the response within 150-200 words.\nDo not exceed 200 words.\n\nQuestion: {question}",
+    "cultural": "Answer the following question concisely, while considering that social norms and values may differ across cultures. Avoid assuming that one cultural perspective is universally applicable.\n\nIMPORTANT LENGTH REQUIREMENT:\nWrite approximately 170-180 words.\nKeep the response within 150-200 words.\nDo not exceed 200 words.\n\nQuestion: {question}",
+    "pluralistic": "Answer the following question by considering multiple cultural perspectives. Explain how different societies may approach this issue, but focus on clearly distinct perspectives rather than listing many countries or regions. Avoid treating one perspective as universally correct.\n\nIMPORTANT LENGTH REQUIREMENT:\nWrite approximately 170-180 words.\nKeep the response within 150-200 words.\nDo not exceed 200 words.\n\nQuestion: {question}"
+  }
+}
