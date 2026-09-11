@@ -1,5 +1,6 @@
 # cultural-perspective-diversity
 Experimental code and materials for studying perspective diversity in large language models under cultural-aware and pluralistic prompting.
+
 # Cultural-Aware vs. Pluralistic Prompting
 
 Experimental code and materials for the term paper:
@@ -60,3 +61,14 @@ for human validation of the automated evaluation.
 │   └── figure4_category_diversity.png
 └── results/
     └── final_summary_by_condition.csv
+```
+
+## Reproducibility
+
+The `experiment.ipynb` notebook contains the main experimental
+workflow. The final configuration is provided in
+`locked_config_final.json`, while generated responses, evaluation
+outputs, summary results, and figures are provided in the
+corresponding directories.
+
+API credentials are not included in this repository.
